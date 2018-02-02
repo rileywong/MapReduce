@@ -100,7 +100,7 @@ int main(int argc, char** argv) {
         //printf("%d\n", sucOrFail);
         map(argv[3], stats_space, sizeof(Stats), stats);
         
-        //Fails here^^^ FIX THIS SHIT I SWEAR TO GOD
+  
         
         int n = nfiles(argv[3]);
         int i = 0;
@@ -117,7 +117,7 @@ int main(int argc, char** argv) {
     }
 
 
-    //printf("%s\n", "asdfsd");
+
     /*
     int mapp = 0;
     mapp = map(argv[2], analysis_space, sizeof(analysis_space), cat);
